@@ -8,6 +8,8 @@ public interface CarRepository extends MongoRepository<Car,String> {
 
     List<Car> findByBrand(String brand);
 
+    List<Car> findByBookedFalse();
+
 
 
 }

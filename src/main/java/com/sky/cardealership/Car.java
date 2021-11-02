@@ -12,15 +12,21 @@ public class Car {
     private String brand;
     private String model;
     private String colour;
-    private int milage;
+    private int mileage;
     private double price;
+    private boolean booked;
 
-    public Car(String numberPlate, String brand, String model, String colour, int milage, double price) {
+    public Car(String numberPlate, String brand, String model, String colour, int mileage, double price, boolean booked) {
         this.numberPlate = numberPlate;
         this.brand = brand;
         this.model = model;
         this.colour = colour;
-        this.milage = milage;
+        this.mileage = mileage;
         this.price = price;
+        this.booked = booked;
+    }
+
+    public Car(String brand) {
+        this.brand = brand;
     }
 }

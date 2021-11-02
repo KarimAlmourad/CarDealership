@@ -20,4 +20,9 @@ public class CarServiceImpl implements CarService{
     public List<Car> findByBrand(String brand) {
         return carRepository.findByBrand(brand);
     }
+
+    @Override
+    public List<Car> findByBookedFalse() {
+        return carRepository.findByBookedFalse();
+    }
 }

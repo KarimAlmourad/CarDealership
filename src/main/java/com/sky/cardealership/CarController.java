@@ -20,7 +20,7 @@ public class CarController {
 
     @GetMapping(value = "/test")
     public List<Car> test(){
-        return Arrays.asList(new Car("123","Tesla","Model S", "White",20000,25000));
+        return Arrays.asList(new Car("123","Tesla","Model S", "White",20000,25000,true));
     }
 
     @GetMapping(value = "/")
