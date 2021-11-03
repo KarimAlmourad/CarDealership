@@ -1,4 +1,6 @@
-package com.sky.cardealership;
+package com.sky.cardealership.service;
+
+import com.sky.cardealership.models.Car;
 
 import java.util.List;
 

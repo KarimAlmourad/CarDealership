@@ -1,5 +1,7 @@
-package com.sky.cardealership;
+package com.sky.cardealership.service;
 
+import com.sky.cardealership.models.Car;
+import com.sky.cardealership.repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,5 +1,6 @@
-package com.sky.cardealership;
+package com.sky.cardealership.repository;
 
+import com.sky.cardealership.models.Car;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

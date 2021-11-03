@@ -1,7 +1,8 @@
-package com.sky.cardealership;
+package com.sky.cardealership.controllers;
 
 
-import lombok.Getter;
+import com.sky.cardealership.models.Car;
+import com.sky.cardealership.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
